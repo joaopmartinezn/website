@@ -1,0 +1,19 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100%;
+	font-family: 'Lato', arial, sans-serif;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+a { color: #111; text-decoration: underline; font-weight: bold; }
+a:hover { color: #22aa88; }
+
+.head{
+  color: black;
+  width: 30%;
+  min-height: 100%
+}
