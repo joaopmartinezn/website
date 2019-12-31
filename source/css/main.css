@@ -7,13 +7,26 @@ body
 	font-family: 'Lato', arial, sans-serif;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	background: white;
 }
 
 a { color: #111; text-decoration: underline; font-weight: bold; }
 a:hover { color: #22aa88; }
 
-.head{
-  color: black;
-  width: 30%;
-  min-height: 100%
+.banner{
+  position: fixed;
+	background: black url("file:///Users/joao.nunes/Desktop/my_stuff/website/source/images/link.png") center center;
+	background-size: cover;
+  width: 35%;
+  min-height: 100%;
+	float: left;
+	z-index: 1;
+}
+
+.content{
+	position: relative;
+	background: white;
+	width: 65%;
+	min-height: 100%;
+	float: right;
 }
